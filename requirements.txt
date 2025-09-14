@@ -1,0 +1,19 @@
+# Backend dependencies
+fastapi==0.104.1
+uvicorn==0.24.0
+pyadomd>=0.0.1  # Use available version
+langgraph>=0.0.40
+langchain-openai>=0.0.8
+langchain-anthropic>=0.1.0
+langchain-google-genai>=1.0.0
+pandas>=2.1.0
+pydantic>=2.5.0
+
+# Frontend dependencies
+streamlit>=1.28.0
+requests>=2.31.0
+plotly>=5.17.0
+
+# Additional dependencies that might be needed
+python-multipart
+aiofiles
